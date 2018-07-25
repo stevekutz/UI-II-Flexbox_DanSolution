@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+	width: 80%;
+	margin: auto;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html, body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 50px;
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.titleInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-right: 400px;
+
+}
+
+.titleInfo h1 {
+	font-size: 120px;
+	width: 300px;
+	text-align: center;
+}
+
+.titleInfo p {
+	font-size: 20px;
+	text-align: center;
+	width: 130px;
+	height: 40px;
+	margin-left: 80px;
+	border: 3px solid black;
+}
+
+#headerIMG {
+	height: 600px;
+	display: flex;
+	border: 1px solid blue;
+
+}
+
+#logoIMG {
+	padding-right: 250px;
+}
+
+#middleIMG {
+	width: 100%;
+}
+
+#line {
+	margin-top: 30px;
+	padding: 100px auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.top {
+	width: 100%;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 50px;
+
+}
+
+.content {
+	width: 50%;
+	height: 300px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px;
+	justify-content: space-evenly;
+}
+
+.content h3 {
+	font-size: 30px;
+	text-align: left;
+
+}
+h2 {
+	font-size: 40px;
+}
+
+.info p {
+	padding: 5px;
+}
+
+
+.learnMore {
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px 0px;
+	height: 40px;
+	vertical-align: center;
+}
+footer {
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+}
+
+h3 {
+	padding-top: 100px;
+	font-size: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.services-header-img {
+	width: 100%;
+	padding: 20px 0px;
+}
+
+#info {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-top: 1px solid black;
+}
+
+#footer_Services {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#services-info-img {
+	width: 600px;
+	margin-left: 800px;
+}
+
+.footer_content {
+	width: 20%;
+	height: 300px;
+	padding: 20px;
+	margin: 20px;
+	justify-content: space-evenly;
+}
+
+.footer_content {
+	width: 50%;
+	height: 300px;
+	padding: 20px;
+	margin: 20px;
+	justify-content: space-evenly;
+	text-align: left;
+}
+
+h4{
+	padding-top: 100px;
+	font-size: 10px;
+	position: relative;
+	text-align: center;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 40px;
+}
